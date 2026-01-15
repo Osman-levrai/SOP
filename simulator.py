@@ -55,5 +55,5 @@ class Simulator:
                 current_event.action(current_event.params)
             else:
                 current_event.action()
-        print(f"--- Fin de la simulation à t={self.clock} ---")
+        print(f"--- Fin de la simulation a t={self.clock} ---")
 
