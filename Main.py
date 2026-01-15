@@ -50,7 +50,7 @@ def run_simulation():
     # P1 ayant commencé son snapshot à T=6, il sera en train d'enregistrer le canal P2->P1.
     # P1 recevra le marqueur de retour de P2 seulement vers T=16 (approx).
     # Donc ce message sera CAPTURÉ (c21).
-    schedule_send(8, p2, "P1", "Msg G->D (Capture Me!)")
+    schedule_send(8, p2, "P1", "Msg G->D")
 
     # === ÉTAPE 4 : Trafic Post-Snapshot ===
     # Correspond au message E -> J (P1 vers P3) sur votre image (droite du schéma)
